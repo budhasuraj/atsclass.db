@@ -1,0 +1,79 @@
+Day1
+========================================
+Git - Version (Source) Control System
+Who, When, What
+
+
+Similar tools: SVN, TFS, Mercurial etc.
+
+Files:
+Text: *.txt, *.xml, *.cs, *.java, *.c etc.
+Binary: Image, Video, Audio, PDF, Docx, PPT etc.
+
+Repository
+- Initialize (One time)
+- Config (One time)
+
+- For every change
+- Add / Staging
+- Commit (Local - No internet connection required)
+
+
+Day 2
+=======================================
+- GitHub - Repo Store which support VCS (Git)
+- Other tools Gitlab, Bitbucket etc.
+
+- Local vs Remote
+
+> git remote add origin https://github.com/binbsr/My-FIles.git
+> git push -u origin master
+
+- Pull/Push/Fetch
+- Branching model
+
+
+Day 3
+========================================
+Web Technologies
+
+- Internet, WWW, W3C, HTTP(S), TCP
+
+-- Desktop applications (Mainframe): Fortran, Basic, Cobol, C/C++ etc.
+
+-- Early 1990's
+-- - Frontend tech 
+----- HTML (Content: Text, Image, Video, Audio, File, Form Elements), similar: *.md
+----- CSS (Styling, Designing)
+----- JavaScript (Interaction or handling events: Clicks, submit etc.) - ECMAScript (ES)
+
+
+Day 4
+===========================================
+-- More on CSS
+-- JS
+-- TypeScript - Superset JS (ng)
+-- WebAssembly (wasm)
+
+
+Day 5
+===================================================
+Database Systems:
+- Relational: MySql, Oracle (PLSQL), Sql Server(TSQL), SqLite, Db2, Postgres etc.
+--- Tables (Colmuns), Keys, Views, Stored Procedures, Funtions, Triggers etc.
+- NoSql (Document dbs): MongoDb, AWS DyanamoDb etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
