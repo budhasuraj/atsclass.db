@@ -14,7 +14,7 @@ drop table Book;
 --for Author table
 create table Author
 (
-    Id Integer PRIMARY KEY,
+    Id Integer PRIMARY KEY identity,
     Name text,
     Address text,
     Phone text,
@@ -38,7 +38,7 @@ VALUES (3, 'Buddhi Sagar', 'Ktm', '985747463', 'M', 'Masters in Journalism')
 
  create table Publication
  (
-    Id Integer PRIMARY KEY,
+    Id Integer primary key identity,
     Name Text,
     Address Text,
     Established Text
@@ -58,7 +58,7 @@ VALUES (3, 'Buddhi Sagar', 'Ktm', '985747463', 'M', 'Masters in Journalism')
  
  create table Book
  (
-    Id Integer PRIMARY KEY,
+    Id Integer PRIMARY KEY identity,
     Title Text,
     PublishedDate Text,
     Price Integer,
@@ -72,9 +72,13 @@ VALUES (3, 'Buddhi Sagar', 'Ktm', '985747463', 'M', 'Masters in Journalism')
  );
 
  INSERT INTO Book
- VALUES(1, 'Karnali Blues', '2010','500', 'first edition 2010', '2010500', 'adventure',2,3 )
+ VALUES
+ (1, 'Karnali Blues', '2010','500', 'first edition 2010', '2010500', 'adventure',2,3 ),
 
-  INSERT INTO Book
- VALUES(2, 'Seto Dharti', '2012','350', 'first edition 2012', '2012350', 'fiction',2,2)
+
+ (2, 'Seto Dharti', '2012','350', 'first edition 2012', '2012350', 'fiction',2,2);
 
  select * from Book
+
+
+ 
